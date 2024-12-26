@@ -68,7 +68,7 @@
 
 .text-container {
   display: grid;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   align-self: left;
   z-index: 5000;
   gap: 1.5rem;
@@ -86,7 +86,7 @@
   font-size: clamp(var(--fs-fortyEight), 3.75rem, var(--fs-sixty)); 
   margin: 0 auto;
   width: 100%;
-  border: 1px solid lime;
+  /* border: 1px solid lime; */
 }
 
 
@@ -99,7 +99,7 @@
   font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen));
   margin: 0 auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border: 1px solid lime;
+  /* border: 1px solid lime; */
 }
 
 .CTA-button {
