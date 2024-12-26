@@ -30,9 +30,9 @@ export default function Navbar() {
           aria-expanded={showNavbar}></button>
         <nav className={`navbar ${showNavbar ? 'enter' : ''} ${isExiting ? 'exit' : ''}`}>
             <ul className='nav-list'>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#about-us-page">About Us</a></li>
+                <li><a href="#services-page">Services</a></li>
+                <li><a href="#contact-page">Contact Us</a></li>
             </ul>
         </nav>
       </header>

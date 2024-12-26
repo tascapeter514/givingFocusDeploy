@@ -4,7 +4,7 @@ import './AboutUs.css'
 
 export default function AboutUs() {
     return(
-        <section className='about-wrapper'>
+        <section className='about-wrapper' id='about-us-page'>
 
             <img src={require('./assets/aboutUs.jpg')} alt="about-image" />
             {/* <img src={require('./assets/career.svg')} alt="career-vector" /> */}

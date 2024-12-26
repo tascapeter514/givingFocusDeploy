@@ -41,8 +41,10 @@
   --size-800: 4rem;
   --size-900: 5rem;
 
+ }
 
-
+ html {
+  scroll-behavior: smooth;
  }
 
 * {

@@ -3,7 +3,7 @@ import './ContactForm.css'
 
 export default function ContactForm() {
     return(
-        <section className="form-container">
+        <section className="form-container" id='contact-page'>
             <article className="contact-text">
                 <h2 className="contact-title">Let’s talk about the next phase of your career</h2>
                 <span className='contact-description'>Please schedule a telephone call with Mary Louise Fazzano to share information
