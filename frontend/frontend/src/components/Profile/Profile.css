@@ -1,0 +1,122 @@
+.maryLouise-container {
+    padding: min(12vh, 12rem) min(20vw, 20rem);
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    color: black;
+    font-family: 'Roboto' sans-serif;
+    font-size: clamp(var(--fs-twelve), 0.875vw, var(--fs-fourteen));
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+
+
+}
+
+.maryLouise-text-wrapper {
+ 
+    padding: min(5vh, 5rem) min(3vw, 3rem);
+    line-height: 2;
+    border: 1px solid red;
+    max-width: 60%;
+
+}
+
+.mary-louise-image-wrapper {
+    /* background-color: #1b2d48; */
+    border-radius: 50%;
+    border: 1px solid red;
+    min-width: 40%;
+    place-content: center;
+}
+
+.mary-louise-image-wrapper > img {
+    /* display: block; */
+    border-radius: 50%;
+    height: 70%;
+    min-width: 100%;
+    object-fit: cover;
+
+
+}
+
+.maryLouise-card-background {
+    background-color: var(--bc-darkerBlue);
+
+}
+
+hr {
+    width: 60%;
+    margin: 0 0 1.5rem 0;
+}
+
+
+
+
+
+/* .maryLouise-text-wrapper img {
+    display: block;
+    position: absolute;
+    border-radius: 2em;
+    width: 55%;
+    border: 10px solid orange;
+} */
+
+
+
+
+.maryLouise-text-wrapper p {
+    margin-block: .5em;
+}
+
+@media (max-width: 100em) {
+    .maryLouise-text-wrapper img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 75em) {
+    .maryLouise-text-wrapper img {
+        width: 70%;
+        
+    }
+}
+
+@media (max-width: 56.25em) {
+
+    .maryLouise-text-wrapper {
+        display: grid;
+        grid-template-rows: 1fr .5fr .25fr .5fr;
+        grid-template-columns: 1fr;
+        font-size: clamp(1rem, 1.125vw, 1.125rem);
+    }
+
+    .mary-louise-image-wrapper {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .maryLouise-text-wrapper img {
+        border: 10px solid orange;
+        width: 50%;
+    
+    }
+
+    .maryLouise-text-wrapper p:first-of-type {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3
+    
+    }
+
+    .maryLouise-text-wrapper p:nth-of-type(2) {
+        grid-row: 3/4;
+    }
+
+    .maryLouise-text-wrapper p:last-of-type {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+        
+    }
+}
+
+
+
