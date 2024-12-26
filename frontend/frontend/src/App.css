@@ -57,10 +57,7 @@
 
 
 .h1-wrapper {
-  /* border: 10px solid blue; */
   position: relative;
-  /* padding: 17em 20em; */
-  /* padding: 10rem 20rem; */
   padding: clamp(1rem, 2.5vw, 5rem) clamp(5rem, 10vw, 20rem);
   height: 45rem;
   background-color: var(--bc-lightBlue);
@@ -71,51 +68,38 @@
 
 .text-container {
   display: grid;
-  /* border: 5px solid lime; */
+  border: 1px solid yellow;
   align-self: left;
-  /* display: inline-block; */
-  
-
-  /* justify-content: left; */
-  /* align-items: center; */
-  /* min-width: 50%; */
-  /* margin: 0 auto; */
   z-index: 5000;
   gap: 1.5rem;
-  /* position: absolute; */
   margin: auto auto;
+  min-width: 100%;
 
-  /* text-align: center; */
+
 }
 
 .text-container h1 {
   color: white;
-  /* text-align: center; */
-  /* font-size: clamp(4rem, 7vw, 10rem); */
+  padding: min(1vh, 1rem) min(1vw, 1rem);
+  text-align: center;
+
   font-size: clamp(var(--fs-fortyEight), 3.75rem, var(--fs-sixty)); 
-  /* border: 4px solid purple; */
   margin: 0 auto;
   width: 100%;
-  /* max-width: 100%; */
-  /* width: 90%; */
-  
-
-
-  /* z-index: 1000; */
-  /* margin: 1em 2em; */
+  border: 1px solid lime;
 }
+
+
 
 .h1-span {
   /* border: 1px solid lime; */
   color: white;
   padding: .5em 1em;
-  /* text-align: center; */
+  text-align: center;
   font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen));
-  /* font-size: 1.5rem; */
-  max-width: 50%;
-  /* width: 90%; */
   margin: 0 auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid lime;
 }
 
 .CTA-button {
@@ -168,9 +152,21 @@
   /* fill: var(--bc-darkBlue) */
 }
 
+/* @media (max-width: 75em) {
+  .text-container h1 {
+    font-size: clamp(var(--fs-thirtySix), 2.25vw, var(--fs-fortyEight)); 
+  }
 
+} */
 
+/* 900px */
 
+@media (max-width: 56.25em) {
+  .text-container h1 {
+    font-size: clamp(var(--fs-fortyEight), 3vw, var(--fs-fortyEight)); 
+  }
+
+}
 
 
 
