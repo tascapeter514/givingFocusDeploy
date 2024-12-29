@@ -107,7 +107,24 @@
     .about-wrapper {
         display: flex;
         flex-direction: column;
+        padding: min(7vh, 7rem) min(5vw, 5rem)
     }
+
+    .about-wrapper > img {
+        min-width: 100%;
+    }
+
+    .about-text-container {
+        /* border: 1px solid lime; */
+        width: 100%;
+    }
+
+    .about-text-container p {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+
 
    
 
@@ -115,7 +132,7 @@
 
 
 /* 600px */
-@media (max-width: 37.5em) {
+/* @media (max-width: 37.5em) {
    
-}
+} */
 
