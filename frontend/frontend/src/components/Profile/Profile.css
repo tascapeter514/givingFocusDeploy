@@ -1,5 +1,5 @@
 .maryLouise-container {
-    padding: min(12vh, 12rem) min(20vw, 20rem);
+    padding: min(12vh, 12rem) min(30vw, 30rem);
     min-height: 100%;
     min-width: 100%;
     position: relative;
@@ -8,49 +8,81 @@
     font-size: clamp(var(--fs-twelve), 0.875vw, var(--fs-fourteen));
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 
 
 }
 
 .maryLouise-text-wrapper {
  
-    padding: min(5vh, 5rem) min(3vw, 3rem);
+    padding: min(1.5vh, 1.5rem) min(3vw, 3rem);
     line-height: 2;
-    border: 1px solid red;
-    max-width: 60%;
+    /* border: 1px solid red; */
+
 
 }
 
-.mary-louise-header {}
+.mary-louise-header {
+   display: flex;
+   /* border: 1px solid purple; */
 
-.mary-louise-header > h2 {
+}
+
+
+.header-texts {
+
+    max-width: 50%;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+   
+    /* border: 1px solid purple; */
+}
+
+.header-texts > h2 {
     color: var(--bc-lightBlue);
-    margin-block: 1rem;
     font-size: var(--fs-fortyEight);
+    margin-top: 0;
+    /* border: 1px solid red; */
 }
+
+
+
+.header-texts > h5 {
+    margin-top: 0;
+}
+
+hr {
+    margin: auto 0 1.5rem 0;
+    color: var(--bc-lightBlue);
+    max-width: 50%;
+}
+
+
+
+
 
 .mary-louise-image-wrapper {
     background-color: var(--bc-darkerBlue);
     border-radius: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     aspect-ratio: 1;
-    max-width: 35%;
+    /* margin-inline: auto; */
+    max-height: 70vh;
+    height: auto;
+    width: 40%;
+    
+
     display: flex;
     justify-content: center;
     align-items: center;
    
-
-   
-
 }
 
 .mary-louise-image-wrapper > img {
     display: block;
     border-radius: 50%;
-    /* max-height: 30%;
-    min-width: 50%; */
-    height: 70%;
+
+    height: 80%;
     aspect-ratio: 1;
     object-fit: cover;
 
@@ -64,11 +96,7 @@
 
 }
 
-hr {
-    width: 60%;
-    margin: 0 0 1.5rem 0;
-    color: var(--bc-lightBlue);
-}
+
 
 
 

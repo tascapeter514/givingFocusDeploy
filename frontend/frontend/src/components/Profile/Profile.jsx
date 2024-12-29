@@ -5,10 +5,12 @@ export default function Profile() {
     return(
         <section className='maryLouise-container'>
             <article className="mary-louise-header">
-                <hr />
-                <h2>Meet Mary Louise</h2>
-                <h5>Mary Louise Fazzano is the President of Giving Focus LLC®
-                a career consulting and advisory firm serving individuals at the start of their career, in transition, or seeking career advancement.</h5>
+                <div className="header-texts">
+                    <hr />
+                    <h2>Meet Mary Louise</h2>
+                    <h5>Mary Louise Fazzano is the President of Giving Focus LLC®
+                    a career consulting and advisory firm serving individuals at the start of their career, in transition, or seeking career advancement.</h5>
+                </div>
                     <div className="mary-louise-image-wrapper">
                         <img src={require("./assets/mary-louise-photo.jpg")} alt="mary-louise-photo" />
                         <div className="maryLouise-card-background"></div>
