@@ -4,17 +4,9 @@
 
 .about-wrapper {
    
-    /* background-color: var(--bc-darkBlue); */
-    /* background-color: rgba(252, 61, 61, 0.811); */
-    /* background-color: var(--bc-lightBlue); */
-    /* background-color: var(--bc-darkBlue); */
-    /* background-color: var(--bc-lightBlue); */
     background-color: white;
-    /* background-image: url(./assets/wave-aboutus.svg);
-    background-repeat: no-repeat; */
-    font-family: "Montserrat", Arial, Tahoma, sans-serif;
- 
-    /* color: black; */
+    z-index: 1;
+    
 
  
     padding: 7vh 11vw 5vh 11vw;
@@ -22,6 +14,7 @@
     width: 100%;
     margin: auto auto;
     gap: 1.5rem;
+    z-index: 1;
     
 
 
@@ -33,6 +26,7 @@
 
 
 .about-text-container {
+
 
     background-color: white;
 
@@ -100,6 +94,7 @@
 
     .about-wrapper {
         background-size: cover;
+
     }
     .about-text-container {
         display: grid;

@@ -8,6 +8,7 @@
     min-width: 100%;
     min-height: 100%;
     position: relative;
+
     
     padding: min(5vh, 5rem) min(5vw, 5rem);
     background-color: var(--bc-lightBlue);
