@@ -174,9 +174,28 @@
     .slider-button {
         margin-inline: .25rem;
     }
+}
 
 
+/* 400px */
 
+@media (max-width: 25em) {
+    .carousel {
+       
+        padding: min(2.5vh, 2.5rem) min(2vw, 2rem);
+
+        /* border: 1px solid black; */
+    
+    }
+
+    .carousel-item li * {
+        font-size: clamp(var(--fs-sixteen), 1vw, var(--fs-sixteen) )
+    }
+
+
+    /* .carousel-slide {
+        height: 65vh;
+    } */
 }
 
 
