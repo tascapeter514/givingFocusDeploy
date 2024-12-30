@@ -160,9 +160,10 @@
 /* 600px */
 @media (max-width: 37.5em) {
 
-    .carousel {
-        min-height: 35rem;
+    .carousel-slide {
+        height: 40vh;
     }
+
 
     .carousel-item li * {
         /* font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour)); */
