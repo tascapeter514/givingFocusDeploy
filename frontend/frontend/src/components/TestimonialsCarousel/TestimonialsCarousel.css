@@ -160,9 +160,17 @@
 /* 600px */
 @media (max-width: 37.5em) {
 
-    .carousel-slide {
-        height: 55vh;
+    .carousel {
+        padding: min(2vh, 2rem) min(2vw, 2rem);
+
     }
+
+    .carousel-slide {
+        height: 50vh;
+        padding: min(2vh, 2rem) min(2vw, 2rem);
+    }
+
+   
 
 
     .carousel-item li * {
@@ -188,14 +196,15 @@
     
     }
 
-    .carousel-item li * {
+    .carousel-item > li * {
         font-size: clamp(var(--fs-sixteen), 1vw, var(--fs-sixteen) )
     }
 
 
-    /* .carousel-slide {
+    .carousel-slide {
         height: 65vh;
-    } */
+        max-width: 100%;
+    }
 }
 
 
