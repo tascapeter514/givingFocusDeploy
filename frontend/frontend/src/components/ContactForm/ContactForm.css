@@ -22,7 +22,7 @@
 
 .contact-title {
     font-size: var( --fs-fortyEight);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
     font-weight: 700;
     
@@ -34,7 +34,7 @@
     line-height: 1.5rem;
     display: inline-block;
     width: 80%;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin-bottom: 1rem;
 }
 
