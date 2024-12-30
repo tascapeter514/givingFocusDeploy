@@ -7,12 +7,12 @@ export default function TestimonialsCarousel() {
     const [autoPlay] = useState(true);
 
 
-    // useEffect(() => {
-    //     const timeOut = autoPlay && setTimeout(() => {
-    //         setActiveSlide((prevIndex) => prevIndex === data.length - 1 ? 0 : prevIndex + 1)
-    //     }, 3000)
-    //     return () => clearTimeout(timeOut)
-    // }, [autoPlay, activeSlide])
+    useEffect(() => {
+        const timeOut = autoPlay && setTimeout(() => {
+            setActiveSlide((prevIndex) => prevIndex === data.length - 1 ? 0 : prevIndex + 1)
+        }, 3000)
+        return () => clearTimeout(timeOut)
+    }, [autoPlay, activeSlide])
 
     
 

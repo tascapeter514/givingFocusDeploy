@@ -6,8 +6,9 @@
 
 .carousel {
     min-width: 100%;
-    min-height: 100%;
+    /* min-height: 100%; */
     position: relative;
+    min-height: 20rem;
 
     
     padding: min(5vh, 5rem) min(5vw, 5rem);
@@ -32,7 +33,7 @@
 .carousel-slide {
  
     max-width: 85%;
-    /* height: 45vh; */
+    height: 25vh;
 
     margin: 0 auto 0 auto;
     padding: 0;
@@ -58,7 +59,8 @@
     /* border: 1px solid red; */
     display: block;
     width: 100%;
-    font-size: 1.5rem;
+    /* font-size: clamp(var(--fs-sixteen), 1.5vw, var(--fs-eighteen) ); */
+    font-size: clamp(var(--fs-twentyFour), 1.5vw, var(--fs-twentyFour));
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
@@ -148,7 +150,8 @@
 
 @media (max-width: 56.25em) {
     .carousel-item li * {
-        font-size: clamp(var(--fs-twentyFour), 1.5vw, var(--fs-twentyFour))
+        font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour))
+
     }
 
 }
@@ -157,9 +160,14 @@
 /* 600px */
 @media (max-width: 37.5em) {
 
+    .carousel {
+        min-height: 35rem;
+    }
+
     .carousel-item li * {
-        font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour));
+        /* font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour)); */
         line-height: 1.5;
+        font-size: clamp(var(--fs-sixteen), 1.5vw, var(--fs-eighteen) )
     }
 
     .slider-button {
