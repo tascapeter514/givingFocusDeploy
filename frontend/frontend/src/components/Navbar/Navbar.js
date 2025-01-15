@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { Link } from 'react-router';
 import './Navbar.css'
 
 export default function Navbar() {
@@ -22,10 +23,10 @@ export default function Navbar() {
     function handleAnchor(event) {
       // handleToggle()
       console.log(event.target.textContent)
-      const currBtn = event.target.textContent
-      const targetHref = event.target.getAttribute('href')
-      const targetEl = document.querySelector(targetHref)
-      targetHref.scrollIntoView({behavior: 'smooth'})
+      // const currBtn = event.target.textContent
+      // const targetHref = event.target.getAttribute('href')
+      // const targetEl = document.querySelector(targetHref)
+      // targetHref.scrollIntoView({behavior: 'smooth'})
       
       
     }
@@ -44,7 +45,7 @@ export default function Navbar() {
           aria-expanded={showNavbar}></button>
         <nav className={`navbar ${showNavbar ? 'enter' : ''} ${isExiting ? 'exit' : ''}`}>
             <ul className='nav-list'>
-                <li><button href="#about-us-page" onClick={handleAnchor}>About Us</button></li>
+                <li><Link to='#about-us-page'><button onClick={handleAnchor}>About Us</button></Link></li>
                 <li><button href="#services-page" onClick={handleAnchor}>Services</button></li>
                 <li><button href="#contact-page" onClick={handleAnchor}>Contact Us</button></li>
             </ul>
