@@ -49,7 +49,7 @@
     display: inline-block;
     font-size: clamp(var(--fs-eighteen), 1.125vw, var(--fs-twentyFour));
     padding: 1.5vh 2vw;
-    background-color: var(--bc-darkBlue);
+    background-color: var(--bc-lightBlue);
     border-radius: .5em;
     min-width: 100%;
     color: white;

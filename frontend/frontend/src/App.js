@@ -9,20 +9,21 @@ import ContactForm from './components/ContactForm/ContactForm'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 
+
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <main>
-        <Header></Header>
-        <AboutUs></AboutUs>
-        <TestimonialsCarousel></TestimonialsCarousel>
-        <Services></Services>
-        <Profile></Profile>
-        <ContactForm></ContactForm>
-        <Footer></Footer>
+        <Navbar></Navbar>
+        <main>
+            <Header></Header>
+            <AboutUs></AboutUs>
+            <TestimonialsCarousel></TestimonialsCarousel>
+            <Services></Services>
+            <Profile></Profile>
+            <ContactForm></ContactForm>
+            <Footer></Footer>
         
-      </main>
+        </main>
     </div>
   )
 }

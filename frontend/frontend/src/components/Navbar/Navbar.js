@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router';
 import './Navbar.css'
+import AboutUs from '../AboutUs/AboutUs';
 
 export default function Navbar() {
     const [showNavbar, setShowNavbar] = useState(false);
@@ -45,7 +46,7 @@ export default function Navbar() {
           aria-expanded={showNavbar}></button>
         <nav className={`navbar ${showNavbar ? 'enter' : ''} ${isExiting ? 'exit' : ''}`}>
             <ul className='nav-list'>
-                <li><Link to='#about-us-page'><button onClick={handleAnchor}>About Us</button></Link></li>
+                <li><Link to={AboutUs}><button onClick={handleAnchor}>About Us</button></Link></li>
                 <li><button href="#services-page" onClick={handleAnchor}>Services</button></li>
                 <li><button href="#contact-page" onClick={handleAnchor}>Contact Us</button></li>
             </ul>

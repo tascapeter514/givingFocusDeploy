@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutUs.css'
+
 // import './AboutUsFlex.css'
 
 export default function AboutUs() {
@@ -25,6 +26,7 @@ export default function AboutUs() {
                         
                     
             </article>
+            
                 
                 
                     
