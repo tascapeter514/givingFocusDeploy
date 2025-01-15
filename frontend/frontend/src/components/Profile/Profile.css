@@ -50,6 +50,7 @@
 
 .header-texts > h5 {
     margin-top: 0;
+    font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen))
 }
 
 hr {

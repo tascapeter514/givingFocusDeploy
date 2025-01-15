@@ -1,12 +1,5 @@
 .services-container {
-    /* background-color: #0179c5; */
-    /* background-image: url('./assets/circles.png');
-    background-repeat: no-repeat;
-    background-size: contain; */
-    /* background-color: #0179c5; */
-    /* background-color: var(--bc-darkBlue); */
-    /* background-color: rgba(252, 61, 61, 0.811); */
-    background-color: var(--bc-darkerBlue);
+    background-color: var(--bc-darkBlue);
     background-size: cover;
     color: black;
 }

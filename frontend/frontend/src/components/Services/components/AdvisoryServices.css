@@ -2,7 +2,7 @@
     font-family: "Roboto", serif;
     display: flex;
     flex-direction: column;
-    background-color: var(--bc-darkerBlue);
+    background-color: var(--bc-darkBlue);
     padding: 7vh 11vw 5vh 11vw;
     gap: 3rem;
     align-items: center;

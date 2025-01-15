@@ -1,12 +1,10 @@
 .search-services {
     padding-inline: min(5vw, 5rem);
     padding-block: 1.5rem min(8vh, 8rem);
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
     font-family: "Roboto", serif;
-    /* background-color: var(--bc-darkBlue); */
     background-color: var(--bc-lightBlue);
     color: white;
-    /* color: black; */
     
     
 }
@@ -44,7 +42,7 @@
 }
 
 .card {
-    border: 1px solid white;
+
     padding: min(1.5vw, 1.5rem) min(1.5vw, 1.5rem);
     height: 58vh;
     width: 100%;
@@ -54,12 +52,9 @@
     line-height: 1.5;
     text-align: left;
     transition: background-color .25s ease;
-    border-radius: 2rem;
+
 }
 
-.card:hover {
-    background-color: var(--bc-darkerBlue)
-}
 
 
 
