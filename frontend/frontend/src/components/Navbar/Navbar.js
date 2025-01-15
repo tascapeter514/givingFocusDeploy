@@ -18,6 +18,20 @@ export default function Navbar() {
         setShowNavbar(true)
       }
     }
+
+    function handleAnchor(event) {
+      // handleToggle()
+      console.log(event.target.textContent)
+      const currBtn = event.target.textContent
+      const targetHref = event.target.getAttribute('href')
+      const targetEl = document.querySelector(targetHref)
+      targetHref.scrollIntoView({behavior: 'smooth'})
+      
+      
+    }
+
+
+
     return(
         <header className="header">
             <div className="logo-wrapper">
@@ -30,9 +44,9 @@ export default function Navbar() {
           aria-expanded={showNavbar}></button>
         <nav className={`navbar ${showNavbar ? 'enter' : ''} ${isExiting ? 'exit' : ''}`}>
             <ul className='nav-list'>
-                <li><a href="#about-us-page">About Us</a></li>
-                <li><a href="#services-page">Services</a></li>
-                <li><a href="#contact-page">Contact Us</a></li>
+                <li><button href="#about-us-page" onClick={handleAnchor}>About Us</button></li>
+                <li><button href="#services-page" onClick={handleAnchor}>Services</button></li>
+                <li><button href="#contact-page" onClick={handleAnchor}>Contact Us</button></li>
             </ul>
         </nav>
       </header>
