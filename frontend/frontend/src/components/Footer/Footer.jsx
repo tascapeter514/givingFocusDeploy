@@ -11,7 +11,8 @@ export default function Footer() {
                     </div>
                     <div className="text-content">
                         <p>
-                        We are a consulting firm specializing in professional career development for individuals seeking advancement, transition, return to, or entryinto the workplace.
+                        We are a consulting firm specializing in professional career development for individuals seeking advancement, transition, return to, or entry
+                        into the workplace.
                         </p>
                         <small>@2024. All rights reserved.</small>
                     </div>
@@ -21,7 +22,7 @@ export default function Footer() {
                         <ul className="contact-list">
                             <li><span>Email: </span>mlf@givingfocusllc.com</li>
                             <li><span>Phone: </span> 1 – 401 – 487 – 4275</li>
-                            <li><span>Address: </span>P.O. Box 102 Newport, Rhode Island 02840 – 0100</li>
+                            <li><span>Address: </span>P.O. Box 102 <br /> Newport, Rhode Island <br /> 02840 – 0100</li>
                         </ul>
                 </div>
             </div>
