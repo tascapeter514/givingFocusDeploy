@@ -47,14 +47,13 @@
 
 
 .about-wrapper > img {
-    /* border: 1px solid red; */
-    max-width: 50%;
-    min-height: 35em;
+    max-height: 40rem;
     display: block;
     border-radius: 2em;
     object-fit: cover;
     object-position: 40%;
     aspect-ratio: 1;
+    align-self: center;
 }
 
 .about-text-container p {
