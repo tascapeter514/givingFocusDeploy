@@ -19,7 +19,6 @@
 .resume-services {
     display: flex;
     flex-direction: row-reverse;
-    border: 1px solid black;
     
     
 }
