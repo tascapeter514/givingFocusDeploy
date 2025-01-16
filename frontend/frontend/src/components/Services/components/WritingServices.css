@@ -142,6 +142,7 @@
     flex-direction: column;
     justify-content: center;
     margin-left: min(2vw, 2rem);
+    max-height: 33rem;
 }
 
 .biography-services-wrapper h4 {
@@ -234,15 +235,10 @@
 
     .writing-services {
         padding: min(5vh, 5rem) min(3vw, 3rem);
-        border: 1px solid purple;
 
     }
 
-    .resume-services {
-        border: 1px solid lime;
-        
 
-    }
 
 
     .resume-services-img > img {

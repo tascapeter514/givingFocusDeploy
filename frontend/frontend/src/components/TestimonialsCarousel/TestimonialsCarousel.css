@@ -4,11 +4,12 @@
     min-width: 100%;
 
     position: relative;
-    min-height: 20rem;
+    min-height: 30rem;
 
     
     padding: min(5vh, 5rem) min(5vw, 5rem);
     background-color: var(--bc-lightBlue);
+    /* border: 1px solid white; */
 
 
 }
@@ -20,8 +21,10 @@
 
 
     min-width: 100%;
+    min-height: 30rem;
 
     position: relative;
+    border: 1px solid white;
 }
 
 
@@ -29,7 +32,7 @@
 .carousel-slide {
  
     max-width: 85%;
-    min-height: 25vh;
+    /* min-height: 25vh; */
 
     margin: 0 auto 0 auto;
     padding: 0;
