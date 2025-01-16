@@ -2,7 +2,6 @@
     position: relative;
     height: 45rem;
     background-color: var(--bc-lightBlue);
-    z-index: -1;
     display: grid;
   }
   
@@ -11,7 +10,6 @@
     /* border: 1px solid yellow; */
     display: grid;
     align-self: left;
-    z-index: 5000;
     gap: 1.5rem;
     margin: auto auto;
     min-width: 100%;
@@ -53,11 +51,11 @@
     margin: .5em auto 0 auto;
     padding: 1.5vh 2vw;
     border-radius: .5em;
+    cursor: pointer;
   }
 
   .call-to-action:hover {
-    background-color: var(--bc-lighterBlue) !important;
-    color: var(--bc-darkerBlue) !important;
+    background-color: var(--bc-middleBlue);
   }
   
   

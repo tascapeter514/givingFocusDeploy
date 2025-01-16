@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { forwardRef} from 'react';
 import './AboutUs.css'
 
-// import './AboutUsFlex.css'
 
-export default function AboutUs() {
+const AboutUs = forwardRef((props, ref) => {
+    console.log('about us ref:', ref)
     return(
-        <section className='about-wrapper' id='about-us-page'>
+        <section className='about-wrapper' id='about-us-page' ref={ref} >
 
             <img src={require('./assets/aboutUs.jpg')} alt="about-image" />
-            {/* <img src={require('./assets/career.svg')} alt="career-vector" /> */}
             <article className="about-text-container">
                 <hr className='about-divider' />
                 <h2 className="about-header">Who We Are</h2>
@@ -26,12 +25,8 @@ export default function AboutUs() {
                         
                     
             </article>
-            
-                
-                
-                    
-            
-            
         </section>
     )
-}
+})
+
+export default AboutUs

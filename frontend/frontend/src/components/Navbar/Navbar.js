@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router';
 import './Navbar.css'
 import AboutUs from '../AboutUs/AboutUs';
 
-export default function Navbar() {
+const Navbar = ({handleScroll}) => {
     const [showNavbar, setShowNavbar] = useState(false);
     const [isExiting, setIsExiting] = useState(false);
+    
   
     function handleToggle() {
-      console.log("Toggle listener working!")
       setShowNavbar((prevNavbar) => !prevNavbar)
       if (showNavbar) {
         setIsExiting(true);
@@ -21,19 +20,7 @@ export default function Navbar() {
       }
     }
 
-    function handleAnchor(event) {
-      // handleToggle()
-      console.log(event.target.textContent)
-      // const currBtn = event.target.textContent
-      // const targetHref = event.target.getAttribute('href')
-      // const targetEl = document.querySelector(targetHref)
-      // targetHref.scrollIntoView({behavior: 'smooth'})
-      
-      
-    }
-
-
-
+  
     return(
         <header className="header">
             <div className="logo-wrapper">
@@ -46,11 +33,13 @@ export default function Navbar() {
           aria-expanded={showNavbar}></button>
         <nav className={`navbar ${showNavbar ? 'enter' : ''} ${isExiting ? 'exit' : ''}`}>
             <ul className='nav-list'>
-                <li><Link to={AboutUs}><button onClick={handleAnchor}>About Us</button></Link></li>
-                <li><button href="#services-page" onClick={handleAnchor}>Services</button></li>
-                <li><button href="#contact-page" onClick={handleAnchor}>Contact Us</button></li>
+                <li><button onClick={() => handleScroll('aboutUs')}>About Us</button></li>
+                <li><button onClick={() => handleScroll('services')}>Services</button></li>
+                <li><button onClick={() => handleScroll('contactForm')}>Contact Us</button></li>
             </ul>
         </nav>
       </header>
     )
 }
+
+export default Navbar;
