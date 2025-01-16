@@ -55,7 +55,6 @@
     /* border: 1px solid red; */
     display: block;
     width: 100%;
-    /* font-size: clamp(var(--fs-sixteen), 1.5vw, var(--fs-eighteen) ); */
     font-size: clamp(var(--fs-twentyFour), 1.5vw, var(--fs-twentyFour));
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
@@ -86,11 +85,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* margin-inline: auto; */
     margin: auto;
-    /* margin: 100% auto; */
 
-    /* transform: translateY(-50%); */
 }
 
 

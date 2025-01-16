@@ -22,7 +22,7 @@
     padding: 1.5vh 3vw;
 
     color: black;
-    font-size: clamp(var(--fs-fourteen), 1vw, var(--fs-sixteen));
+    font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen));
     width: 80%;
     line-height: 1.5;
     /* border: 1px solid red; */
@@ -35,7 +35,7 @@
 }
 
 .about-secondary-header {
-    font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen))
+    font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour))
 }
 
 
