@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'
-import AboutUs from '../AboutUs/AboutUs';
+
 
 const Navbar = ({handleScroll}) => {
     const [showNavbar, setShowNavbar] = useState(false);
