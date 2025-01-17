@@ -3,7 +3,6 @@ import './AboutUs.css'
 
 
 const AboutUs = forwardRef((props, ref) => {
-    console.log('about us ref:', ref)
     return(
         <section className='about-wrapper' id='about-us-page' ref={ref} >
 

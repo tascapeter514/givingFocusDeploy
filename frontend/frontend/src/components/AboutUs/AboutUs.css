@@ -42,11 +42,8 @@
 
 
 .about-wrapper > img {
-    max-height: 50rem;
-    max-width: 50rem;
+    max-width: 50%;
     border: 1px solid red;
-
-    
     display: inline-block;
     border-radius: 2em;
     object-fit: cover;
@@ -58,13 +55,35 @@
     opacity: 0.7;
 }
 
+/* 1400px */
+
+@media (max-width: 87.5em) {
+
+    .about-wrapper > img {
+        height: 35rem;
+        
+    }
+    
+
+}
+
 
 /* 1200px */
 @media (max-width: 75em) {
 
+    .about-wrapper {
+        padding: 7vh 3vw 5vh 3vw;
+    }
+
+    .about-text-container {
+        padding: 0;
+    }
+
 
     .about-wrapper > img {
         object-position: 50%;
+        min-width: 55%;
+        
     }
 }
 
