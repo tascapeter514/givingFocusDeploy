@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './Navbar.css'
 
 
-const Navbar = ({handleScroll}) => {
-    const [showNavbar, setShowNavbar] = useState(false);
-    const [isExiting, setIsExiting] = useState(false);
+const Navbar = ({handleScroll, showNavbar, setShowNavbar, setIsExiting, isExiting}) => {
+  
+    
     
   
     function handleToggle() {

@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import Navbar from './components/Navbar/Navbar'
 import TestimonialsCarousel from './components/TestimonialsCarousel/TestimonialsCarousel'
 import AboutUs from './components/AboutUs/AboutUs'
@@ -17,9 +17,19 @@ function App() {
     contactForm: useRef(null),
   }
 
+  const [showNavbar, setShowNavbar] = useState(false);
+  const [isExiting, setIsExiting] = useState(false);
+
   function handleScroll(section) {
     if (sectionRefs[section].current) {
       sectionRefs[section].current.scrollIntoView({behavior: 'smooth'})
+      if (showNavbar) {
+        setIsExiting(true);
+        setTimeout(() => {
+          setShowNavbar(false);
+          setIsExiting(false)
+        }, 350);
+      }
     }
   }
   
@@ -28,7 +38,12 @@ function App() {
 
   return (
     <div className="App">
-        <Navbar handleScroll={handleScroll}></Navbar>
+        <Navbar 
+          handleScroll={handleScroll} 
+          showNavbar={showNavbar}
+          isExiting={isExiting} 
+          setShowNavbar={setShowNavbar} 
+          setIsExiting={setIsExiting}></Navbar>
         <main>
             <Header handleScroll={handleScroll}></Header>
             <AboutUs ref={sectionRefs.aboutUs} title= 'About Us'></AboutUs>
