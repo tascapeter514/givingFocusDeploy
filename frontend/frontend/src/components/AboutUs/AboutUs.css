@@ -104,8 +104,9 @@
     }
 
     .about-text-container {
-        /* border: 1px solid lime; */
+        border: 1px solid lime;
         width: 100%;
+        margin-inline: auto;
     }
 
     .about-text-container p {
