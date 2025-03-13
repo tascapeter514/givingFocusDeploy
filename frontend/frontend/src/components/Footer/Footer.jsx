@@ -20,8 +20,6 @@ export default function Footer() {
                 <div className="contact-info-container">
                     <h5>Contact Us</h5>
                         <ul className="contact-list">
-                            <li><span>Email: </span>mlf@givingfocusllc.com</li>
-                            <li><span>Phone: </span> 1 – 401 – 487 – 4275</li>
                             <li><span>Address: </span>P.O. Box 102 <br /> Newport, Rhode Island <br /> 02840 – 0100</li>
                         </ul>
                 </div>

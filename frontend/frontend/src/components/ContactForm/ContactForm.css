@@ -15,12 +15,11 @@
     
 
     color: white;
-    /* border: 1px solid red; */
+ 
 }
 
 .contact-title {
     font-size: var( --fs-fortyEight);
-    /* border: 1px solid red; */
     
     font-weight: 700;
     
@@ -52,7 +51,6 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    border: 10px solid red;
     padding: min(15vh, 15rem) min(5vw, 5rem);
     box-shadow: 0 .5rem 0 0 rgba(0, 0, 0 0.14688);
     border-radius: .625rem;
