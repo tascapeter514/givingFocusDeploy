@@ -50,7 +50,7 @@
     /* border: 1px solid orange; */
     font-size: clamp(var(--fs-twentyFour), 1.875vw, var(--fs-thirty));
     margin: 0;
-    color: var(--bc-darkBlue);
+    color: var(--bc-lightBlue);
     text-wrap: nowrap;
 }
 
