@@ -20,7 +20,7 @@ const ContactForm = forwardRef((props, ref) => {
                     <input type="email" className="formInput email" id='email' placeholder='Email Address' required />
                     <span className="text" id='lname-text'></span>
                     <div className="space"></div>
-                    <input type="text" className="formInput message" id='message' placeholder='Enter Your Comments' required/>
+                    <input type="text" className="formInput message" id='message' placeholder='Enter Your Message' required/>
                     <span className="text" id='message-text'></span>
                     <div className="space"></div>
                     <input type="submit" id='submit' value='Find Your Focus Today' />
