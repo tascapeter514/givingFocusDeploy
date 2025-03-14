@@ -14,7 +14,7 @@ export default function Footer() {
                         We are a consulting firm specializing in professional career development for individuals seeking advancement, transition, return to, or entry
                         into the workplace.
                         </p>
-                        <small>@2024. All rights reserved.</small>
+                        <small>@2025. All rights reserved.</small>
                     </div>
                 </div>
                 <div className="contact-info-container">
