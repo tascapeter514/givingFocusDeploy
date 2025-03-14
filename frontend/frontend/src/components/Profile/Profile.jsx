@@ -32,7 +32,7 @@ export default function Profile() {
                 Previously, she was the Director of Community Affairs at Stanley Fastening Systems.</p>
 
                 <p>
-                    Mary Louise serves on the Board of Directors of the Providence Mutual Fire Insurance Company and the Advisory Board of Newport Eco-Tech; 
+                    Mary Louise served on the Board of Directors of the Providence Mutual Fire Insurance Company and the Advisory Board of Newport Eco-Tech; 
                     she is also a member of Women Corporate Directors and the Belizean Grove. 
                     She was an Adjunct Instructor at New York University’s Center for Philanthropy and Fundraising. 
                     She is an Emeritus Board member of Refugees International in Washington D.C. 
