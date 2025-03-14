@@ -6,7 +6,7 @@ import './AdvisoryServices.css'
 export default function AdvisoryServices() {
     return(
         <div className="advisory-services">
-            <h3>Advisory Services</h3>
+            <h3>Board & Career Advisory Services</h3>
             <article className="focus-you">
                 <div className="focus-you-img"><img src={require('../assets/focus-you-pic.jpg')} alt="" /></div>
                 <section className="focus-you-wrapper">
