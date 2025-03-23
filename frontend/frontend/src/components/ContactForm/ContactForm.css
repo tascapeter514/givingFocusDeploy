@@ -11,11 +11,10 @@
 
 .contact-text {
     color: white;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 
  
 }
@@ -23,10 +22,10 @@
 .contact-title {
     font-size: var( --fs-thirtySix);
     font-weight: 700;
-    flex: 1;
-    min-width: fit-content;
-    border: 1px solid red;
-    text-align: justify;
+    text-align: center;
+    width: 100%;
+    max-width: fit-content;
+    text-wrap: balance;
 
 
     
@@ -39,8 +38,9 @@
     display: inline-block;
     padding: .25em;
     margin-bottom: 1rem;
-    flex: 1;
     text-align: justify;
+    width: 100%;
+    max-width: 625px;
 }
 
 .contact-form {
@@ -134,7 +134,11 @@ input:focus {
 @media (max-width: 75em) {
 
     .form-container {
-        border: 1px solid red;
+        gap: 2rem;
+    }
+
+    .contact-title {
+        font-size: var(--fs-thirty)
     }
 
     .form-field {
@@ -155,10 +159,15 @@ input:focus {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: .6fr 1fr;
+        gap: 0;
     }
 
     .form-field {
         padding: min(10vh, 10rem) min(5vw, 5rem);
+    }
+
+    .contact-title {
+        text-align: center;
     }
 
     .contact-form {

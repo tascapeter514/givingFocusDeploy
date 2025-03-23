@@ -10,6 +10,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    gap: 2rem;
 
 }
 
@@ -54,9 +55,6 @@
     width: 100%;
     max-width: 300px;
     text-align: left;
-
-
-
 }
 
 .contact-info-container h5 {
@@ -86,19 +84,23 @@
         flex-direction: column;
         gap: 2rem;
 
-    }
 
-    .contact-list {
-        /* border: 1px solid orange; */
-        padding: 0;
     }
 
     .contact-info-container {
         width: 100%;
+        align-items: center;
+        max-width: 250px;
     }
 
+
     .contact-list {
-        max-width: 85%;
+        padding: 0;
+    }
+
+    
+
+    .contact-list {
         text-wrap: balance;
     }
   }
