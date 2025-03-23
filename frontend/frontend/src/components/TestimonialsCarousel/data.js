@@ -4,7 +4,9 @@
     {id: 2, name: "testimonial-three", quote: "Confidence: You have the skills. You have done the work and have a successful career. Yet you have not completely recognized those facts – simply because… You are too busy in your role.Enter Mary Louise – not only does she acknowledge and focus your experiences – but she gives you that ever so needed boost called CONFIDENCE", byline:' - Management and Business Development Professional'},
     {id: 3, name: "testimonial-four", quote: "I have to tell you that I attended a Corporate Board Training and received many compliments from other attendees about my resume and bio. So I gave your name out to several people.", byline:' - Senior Executive - Fortune 100, American Multinational Consumer Goods Company'},
     {id: 4, name: "testimonial-five", quote: " I worked with Mary Louise during my transition from academia into corporate America. Her insights into the job search and interview process were invaluable. She provided the type of information that no book or course could offer. Her incredibly warm personality made every meeting effortless. I plan on continuing to work with her over the course of my career. Now I am pleased to recommend her to anyone who is looking for a dedicated professional to assist them with career planning or professional advancement.", byline:' - Chief of Staff & Associate Vice President for Corporate Relations, a US National University'},
-    {id: 5, name: "testimonial-six", quote: "Description of the search strategies and concrete tactics Mary Louise shares - 'The gifts that keep on giving.'", byline:' - International Development Executive'},
+    {id: 5, name: "testimonial-six", quote: `Description of the search strategies and concrete tactics Mary Louise shares - \n 
+         'The gift that keep on giving.'`, 
+        byline:' - International Development Executive'}
 ]
 
 export default data;

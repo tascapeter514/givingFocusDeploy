@@ -19,6 +19,7 @@
 
 .mary-louise-header {
    display: flex;
+   gap: 1rem;
    
 
 }
@@ -45,15 +46,17 @@
 .header-texts > h5 {
     font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen));
     margin-top: 0;
-    text-wrap: balance;
+    text-align: justify;
+    text-wrap: pretty;
 
 
 }
 
 hr {
     margin: auto 0 1.5rem 0;
-    color: var(--bc-lightBlue);
-    max-width: 50%;
+    max-width: 170px;
+    border: 2px solid var(--bc-lightBlue)
+    
 }
 
 

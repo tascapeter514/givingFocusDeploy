@@ -4,7 +4,7 @@ import data from './data.js'
 
 export default function TestimonialsCarousel() {
     const [activeSlide, setActiveSlide] = useState(0);
-    const [autoPlay] = useState(true);
+    const [autoPlay] = useState(false);
 
 
     useEffect(() => {
@@ -19,7 +19,7 @@ export default function TestimonialsCarousel() {
 
     const testimonialItems = data.map(t => {
         return <li className={`testimonial ${activeSlide === t.id ? 'visible' : 'hidden'} `} key={t.id}>
-            <blockquote className="testimonial-testimonialbody">"{t.quote}"</blockquote>
+            <blockquote className="testimonial-testimonialbody" style={{ whiteSpace: 'pre-line'}}>"{t.quote}"</blockquote>
             <small className="byline">{t.byline}</small>
         </li>
     })

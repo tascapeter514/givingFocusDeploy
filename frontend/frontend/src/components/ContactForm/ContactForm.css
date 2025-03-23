@@ -39,6 +39,7 @@
     padding: .25em;
     margin-bottom: 1rem;
     text-align: justify;
+    text-wrap: pretty;
     width: 100%;
     max-width: 625px;
 }

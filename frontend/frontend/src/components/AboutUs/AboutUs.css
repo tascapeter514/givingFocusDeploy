@@ -35,15 +35,16 @@
 
 
 .about-divider {
-    width: 30%;
+    width: 100%;
+    max-width: 175px;
     text-align: left;
     margin: 0;
+    border: 2px solid var(--bc-middleBlue)
 }
 
 
 .about-wrapper > img {
     max-width: 50%;
-    border: 1px solid red;
     display: inline-block;
     object-fit: cover;
     object-position: 40%;
@@ -52,6 +53,8 @@
 
 .about-text-container p {
     opacity: 0.7;
+    text-align: justify;
+    text-wrap: pretty;
 }
 
 /* 1400px */
@@ -103,7 +106,6 @@
     }
 
     .about-text-container {
-        border: 1px solid lime;
         width: 100%;
         margin-inline: auto;
     }

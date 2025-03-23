@@ -8,7 +8,6 @@
 }
 
 .search-header-wrapper {
-    border: 1px solid purple;
     text-align: center;
     margin-bottom: 1rem;
     width: 100%;
@@ -25,8 +24,8 @@
 
 .search-header-wrapper > span {
     font-size: clamp(var(--fs-sixteen), 1.5vw, var(--fs-eighteen));
-    max-width: 1200px;
-    text-wrap: balance;
+    max-width: 800px;
+    text-wrap: pretty;
 
 }
 
@@ -149,9 +148,9 @@
     .card h4 {
         font-size: clamp(var(--fs-thirty), 2.25vw, var(--fs-thirtySix));
         max-width: 450px;
-        text-align: center;
-        text-wrap: balance;
-        border: 1px solid red;
+
+        text-wrap: pretty;
+
     }
 
     .card p {
