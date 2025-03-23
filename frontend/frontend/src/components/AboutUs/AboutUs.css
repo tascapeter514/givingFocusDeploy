@@ -1,26 +1,36 @@
 
 .about-wrapper {
     background-color: white;
-    padding: 7vh 0 5vh 0;
+    padding: 1em;
+    /* padding: 7vh 0 5vh 0; */
     width: 100%;
-    margin: auto auto;
-    max-width: 1100px;
+    /* margin: auto auto; */
+    justify-content: center;
+
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+
 }
 
 
 
 .about-text-container {
     background-color: white;
-    gap: 1.5rem;
-    padding: 1.5vh 1.5vw;
+
+
 
     color: black;
     font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen));
     width: 100%;
-    line-height: 1.5;
-    /* border: 1px solid red; */
+    line-height: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: .5rem;
+    max-width: 775px;
+
 }
 
 .about-header {
@@ -30,9 +40,10 @@
 }
 
 .about-secondary-header {
-    font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour));
-    margin: 1rem;
+    font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-eighteen));
     line-height: 1.5rem;
+    margin: .5rem;
+    text-wrap: pretty;
 }
 
 
@@ -59,7 +70,9 @@
     opacity: 0.7;
     text-align: justify;
     text-wrap: pretty;
-    margin: 1rem;
+    margin: .5rem;
+    width: 100%;
+
 }
 
 /* 1400px */
@@ -84,13 +97,18 @@
 
     .about-text-container {
         padding: 0;
+        align-items: left;
     }
 
 
     .about-wrapper > img {
         object-position: 50%;
-        min-width: 55%;
+
         
+    }
+
+    .about-text-container > p {
+        margin: .25em;
     }
 }
 
@@ -111,19 +129,37 @@
         margin-top: 2rem;
     }
 
-
-
     .about-text-container {
         width: 100%;
         max-width: 750px;
         margin-inline: auto;
     }
 
-    .about-text-container p {
-        /* border: 1px solid red; */
-        width: 100%;
+    .about-wrapper > img {
+        height: 25rem;
     }
-    
+
+    .about-text-container p {
+
+        width: 100%;
+
+    } 
+}
+
+@media (max-width: 900px) {
+
+
+    .about-secondary-header {
+
+        margin: 0;
+
+
+    }
+    .about-text-container p {
+
+        margin: 0;
+        
+    }
 }
 
 
