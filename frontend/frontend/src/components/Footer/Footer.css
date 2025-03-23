@@ -15,28 +15,33 @@
 }
 
 .image-and-text-wrapper {
-    text-align: justify;
+
     width: fit-content;
     max-width: 350px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: .25rem;
 }
 
 .text-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    min-width: fit-content;
+    align-items: left;
     padding: .25rem;
+    max-width: 225px;
+    text-align: left;
+    text-wrap: balance;
+    
     
 
 }
 
 .text-content p {
     margin-top: 0;
+
 }
+
 .image-wrapper {
     object-fit: cover;
 }
@@ -89,7 +94,6 @@
 
     .contact-info-container {
         width: 100%;
-        align-items: center;
         max-width: 250px;
     }
 

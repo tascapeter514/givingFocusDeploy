@@ -1,6 +1,7 @@
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     background-color: white;
     position: fixed;
@@ -9,16 +10,23 @@
   
   .logo-wrapper {
     object-fit: cover;
+    padding: .5rem;
   
   }
   
   .logo {
-    height: 6rem;
+    height: 7.5rem;
     min-width: 100%;
   }
   
   .mobile-nav-toggle {
     display: none;
+  }
+
+  .navbar {
+    /* border: 10px solid purple; */
+    width: 100%;
+    max-width: 600px;
   }
   
   .navbar.enter { 
@@ -36,12 +44,14 @@
     gap: 1.5rem;
     padding: 1rem;
     background-color: var(--bc-darkBlue);
-    border-radius: .5em;
+    /* border: 5px solid lime; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   .nav-list li {
     display: inline-block;
-    border-radius: .5em;
     background-color: var(--bc-lightBlue);
   }
   
@@ -63,7 +73,7 @@
   }
 
 
-  @media (max-width: 35em) {
+  @media (max-width: 37.5em) {
 
     * {
       box-sizing: border-box;

@@ -45,7 +45,6 @@
     max-width: 50%;
     border: 1px solid red;
     display: inline-block;
-    border-radius: 2em;
     object-fit: cover;
     object-position: 40%;
     align-self: center;

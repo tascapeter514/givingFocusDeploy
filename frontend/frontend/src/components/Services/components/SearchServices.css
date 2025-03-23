@@ -120,9 +120,17 @@
 
     .search-services {
         padding-inline: min(4vw, 4rem);
-       
-
     }
+
+    .search-header-wrapper > span {
+        border: 1px solid red;
+        /* text-align: justify;
+        text-wrap: wrap; */
+        text-wrap: balance;
+        font-size: 1rem;
+    }
+
+    
     .search-services-card-wrapper {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));

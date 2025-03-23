@@ -62,7 +62,6 @@ hr {
 
 .mary-louise-image-wrapper {
     background-color: var(--bc-darkerBlue);
-    border-radius: 50%;
     aspect-ratio: 1;
     height: auto;
     min-width: 35%;
@@ -74,7 +73,6 @@ hr {
 
 .mary-louise-image-wrapper > img {
     /* display: block; */
-    border-radius: 50%;
 
     min-height: 80%;
     aspect-ratio: 1;

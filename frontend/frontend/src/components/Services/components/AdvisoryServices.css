@@ -39,13 +39,11 @@
     max-width: 100%;
     max-height: 35rem;
     aspect-ratio: 1;
-    border-radius: 2em;
     object-fit: cover;
 }
 
 .focus-you-wrapper {
     width: 50%;
-    border-radius: 1vw;
     padding: min(.25vh, .25rem) min(1.5vw, 1.5rem);
     display: flex;
     flex-direction: column;
@@ -125,7 +123,6 @@
     max-width: 100%;
     max-height: 35rem;
     aspect-ratio: 1;
-    border-radius: 2em;
     object-fit: cover;
     
     
@@ -134,7 +131,6 @@
 
 .search-focus-wrapper {
     width: 50%;
-    border-radius: 1vw;
     padding: min(.25vh, .25rem) min(1.5vw, 1.5rem);
 
     display: flex;
