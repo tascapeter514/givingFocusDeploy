@@ -1,11 +1,20 @@
+
+.contact-form-wrapper {
+    background-color: var(--bc-lightBlue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .form-container {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 
     background-color: var(--bc-lightBlue);
-    padding: min(10vh, 10rem) min(5vw, 5rem);
-
+    padding: min(5vh, 5rem) min(2.5vw, 2.5rem);
+    max-width: 1100px;
+    gap: 1rem;
 
 }
 
@@ -15,6 +24,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 650px;
 
  
 }
@@ -26,9 +37,6 @@
     width: 100%;
     max-width: fit-content;
     text-wrap: balance;
-
-
-    
 }
 
 .contact-description {
@@ -41,16 +49,15 @@
     text-align: justify;
     text-wrap: pretty;
     width: 100%;
-    max-width: 625px;
+    max-width: 450px;
+
 }
 
 .contact-form {
     margin: auto;
     display: flex;
     flex-direction: column;
-
-    width: 80%;
-
+    width: 100%;
     min-height: 100%;
 }
 

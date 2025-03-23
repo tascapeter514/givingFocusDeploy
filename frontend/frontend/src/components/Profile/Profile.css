@@ -107,7 +107,9 @@ hr {
 /* 900px */
 @media (max-width: 56.25em) {
     .maryLouise-container {
-        padding: min(12vh, 12rem) min(7vw, 7rem);
+        padding: min(12vh, 12rem) min(5vw, 5rem);
+        width: 100%;
+        max-width: 1100px;
     }
 
     .header-texts > h2 {
@@ -119,7 +121,7 @@ hr {
     }
 
     .mary-louise-image-wrapper {
-        min-width: 50%;
+        width: 100%;
     }
 }
 

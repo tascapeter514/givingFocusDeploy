@@ -1,10 +1,10 @@
 
 .about-wrapper {
     background-color: white;
-    padding: 7vh 5vw 5vh 5vw;
+    padding: 7vh 0 5vh 0;
     width: 100%;
     margin: auto auto;
-    gap: 1.5rem;
+    max-width: 1100px;
     display: flex;
     flex-direction: row;
 }
@@ -14,23 +14,25 @@
 .about-text-container {
     background-color: white;
     gap: 1.5rem;
-    padding: 1.5vh 3vw;
+    padding: 1.5vh 1.5vw;
 
     color: black;
     font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen));
-    max-width: 80%;
+    width: 100%;
     line-height: 1.5;
     /* border: 1px solid red; */
 }
 
 .about-header {
     color: var(--bc-lightBlue);
-    margin-block: 2rem;
+    margin-block: 1rem;
     font-size: var(--fs-fortyEight);
 }
 
 .about-secondary-header {
-    font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour))
+    font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour));
+    margin: 1rem;
+    line-height: 1.5rem;
 }
 
 
@@ -44,7 +46,9 @@
 
 
 .about-wrapper > img {
-    max-width: 50%;
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
     display: inline-block;
     object-fit: cover;
     object-position: 40%;
@@ -55,6 +59,7 @@
     opacity: 0.7;
     text-align: justify;
     text-wrap: pretty;
+    margin: 1rem;
 }
 
 /* 1400px */
@@ -98,15 +103,19 @@
     .about-wrapper {
         display: flex;
         flex-direction: column;
-        padding: min(7vh, 7rem) min(5vw, 5rem)
+        padding: min(7vh, 7rem) min(2.5vw, 2.5rem);
+        justify-content: center;
     }
 
-    .about-wrapper > img {
-        min-width: 100%;
+    .about-divider {
+        margin-top: 2rem;
     }
+
+
 
     .about-text-container {
         width: 100%;
+        max-width: 750px;
         margin-inline: auto;
     }
 
