@@ -10,29 +10,37 @@
 }
 
 .contact-text {
-    text-align: center;
-    align-self: center;
-    
-
     color: white;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
  
 }
 
 .contact-title {
-    font-size: var( --fs-fortyEight);
-    
+    font-size: var( --fs-thirtySix);
     font-weight: 700;
+    flex: 1;
+    min-width: fit-content;
+    border: 1px solid red;
+    text-align: justify;
+
+
     
 }
 
 .contact-description {
-    font-size: clamp(var(--fs-eighteen), 1.125vw, var(--fs-twentyFour));
+    font-size: clamp(var(--fs-sixteen), 1vw, var(--fs-eighteen));
     font-weight: 500;
     line-height: 1.5rem;
     display: inline-block;
-    width: 80%;
-    /* border: 1px solid orange; */
+    padding: .25em;
     margin-bottom: 1rem;
+    flex: 1;
+    text-align: justify;
 }
 
 .contact-form {
@@ -124,6 +132,10 @@ input:focus {
 
 /* 1200px */
 @media (max-width: 75em) {
+
+    .form-container {
+        border: 1px solid red;
+    }
 
     .form-field {
         padding: min(15vh, 15rem) min(1vw, 1rem);
