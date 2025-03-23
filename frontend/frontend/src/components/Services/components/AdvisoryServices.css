@@ -92,13 +92,13 @@
 
 
 .focus-you-wrapper li::before {
-    content: url('../assets/checkmark.svg');
+    content: url('../assets/advisory-checkmark.svg');
     margin-inline: .5rem 1rem;
     margin-bottom: .5rem;
     color: white;
     align-self: start;
-    
 }
+
 
 .search-focus {
     display: flex;
@@ -176,7 +176,7 @@
 }
 
 .search-focus-wrapper li::before {
-    content: url('../assets/checkmark.svg');
+    content: url('../assets/advisory-checkmark.svg');
     margin-inline: .5rem 1rem;
     margin-bottom: .5rem;
     color: white;
