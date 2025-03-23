@@ -12,6 +12,7 @@
 
 .maryLouise-text-wrapper {
     line-height: 2;
+    text-align: justify;
 
 
 }
@@ -44,6 +45,7 @@
 .header-texts > h5 {
     font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen));
     margin-top: 0;
+    text-wrap: balance;
 
 
 }
