@@ -11,6 +11,7 @@
 
     display: flex;
     max-width: 1200px;
+
     
 
     background-color: var(--bc-lightBlue);
@@ -25,9 +26,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     width: 100%;
     max-width: 650px;
+
 
  
 }
@@ -35,7 +37,7 @@
 .contact-title {
     font-size: var( --fs-thirtySix);
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     width: 100%;
     max-width: fit-content;
     text-wrap: balance;
