@@ -5,10 +5,10 @@
     width: 100%;
 
     position: relative;
-    min-height: 30rem;
+    padding: 2em;
 
     
-    padding: min(5vh, 5rem) min(5vw, 5rem);
+    /* padding: min(5vh, 5rem) min(5vw, 5rem); */
     background-color: var(--bc-lightBlue);
     /* border: 1px solid white; */
 
@@ -20,9 +20,9 @@
     display: grid;
     grid-template-columns: 1fr;
 
-    min-height: 20rem;
 
     position: relative;
+
     
 }
 
@@ -54,7 +54,7 @@
     font-size: clamp(var(--fs-twentyFour), 1.5vw, var(--fs-twentyFour));
     color: white;
     text-align: justify;
-    text-wrap: pretty;
+    /* text-wrap: pretty; */
     justify-content: center;
 
 
@@ -112,10 +112,11 @@
 
 .menu-wrapper {
     /* border: 1px solid purple; */
-    margin: 1rem auto;
+    margin: 2rem auto;
     min-width: 25%;
     text-align: center;
     padding: 0;
+    
 }
 
 .slider-button {
@@ -148,13 +149,14 @@
 @media (max-width: 37.5em) {
 
     .carousel {
-        padding: min(2vh, 2rem) min(2vw, 2rem);
+        /* padding: min(2vh, 2rem) min(2vw, 2rem); */
+        padding: 1.5rem;
 
     }
 
     .carousel-slide {
         /* height: 50vh; */
-        padding: min(2vh, 2rem) min(2vw, 2rem);
+        /* padding: min(2vh, 2rem) min(2vw, 2rem); */
     }
 
    
@@ -177,7 +179,7 @@
 @media (max-width: 25em) {
     .carousel {
        
-        padding: min(2.5vh, 2.5rem) min(2vw, 2rem);
+        /* padding: min(2.5vh, 2.5rem) min(2vw, 2rem); */
 
         /* border: 1px solid black; */
     

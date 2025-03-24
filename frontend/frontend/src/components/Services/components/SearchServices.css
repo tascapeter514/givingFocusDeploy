@@ -124,7 +124,6 @@
     }
 
     .search-header-wrapper > span {
-        border: 1px solid red;
         /* text-align: justify;
         text-wrap: wrap; */
         text-wrap: balance;

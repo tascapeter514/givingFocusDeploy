@@ -28,17 +28,17 @@
 
     
 }
-.focus-you-img {
+/* .focus-you-img {
     display: flex;
 
-}
+} */
 
 .focus-you-img > img {
     display: block;
     width: 100%;
     min-width: 400px;
     max-width: 400px;
-    max-height: 33rem;
+    height: 33rem;
     aspect-ratio: 1;
     object-fit: cover;
 }
@@ -66,7 +66,7 @@
     text-align: left;
     margin: 0;
     margin-block: 2rem 0;
-    text-wrap: nowrap;
+    text-wrap: wrap;
 
 
 }
@@ -203,7 +203,6 @@
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        border: 1px solid red;
         align-items: center;
     }
 
@@ -240,6 +239,10 @@
 @media (max-width: 37.5em) {
 
     .advisory-services {
+        padding: min(5vh, 5rem) min(3vw, 3rem);
+    }
+
+    .focus-you {
         padding: min(5vh, 5rem) min(3vw, 3rem);
     }
 

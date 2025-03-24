@@ -132,25 +132,11 @@ hr {
         padding: min(5vh, 5rem) min(3vw, 3rem);
     }
 
-    .mary-louise-image-wrapper {
-        max-width: 50%;
-        max-height: 50%;
-        align-self: center;
-    }
-
-    .header-texts > h2 {
-        font-size: clamp(var(--fs-thirtySix), 2.25vw, var(--fs-thirtySix));
-        margin-bottom: 1rem
-    }
-
-}
-
-@media (max-width: 25rem) {
     .mary-louise-header {
-        border: 1px solid lime;
         display: flex;
         flex-direction: column-reverse;
         gap: 1rem;
+        justify-content: left;
     }
 
     .mary-louise-image-wrapper {
@@ -159,12 +145,28 @@ hr {
     }
 
     .header-texts {
-        border: 1px solid purple;
         min-width: 100%;
     }
 
+    .header-texts > h2 {
+        font-size: clamp(var(--fs-thirtySix), 2.25vw, var(--fs-thirtySix));
+        margin-bottom: 1rem
+    }
+
     .header-texts > h5 {
-        border: 1px solid black;
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 25rem) {
+    
+
+    
+
+    
+
+    .header-texts > h5 {
         min-width: 100%;
 
 
