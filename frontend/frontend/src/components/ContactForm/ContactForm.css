@@ -2,19 +2,21 @@
 .contact-form-wrapper {
     background-color: var(--bc-lightBlue);
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    padding: min(5vh, 5rem) min(2.5vw, 2.5rem);
 
 }
 
 .form-container {
 
     display: flex;
+    max-width: 1200px;
+    
 
     background-color: var(--bc-lightBlue);
-    padding: min(5vh, 5rem) min(2.5vw, 2.5rem);
-    max-width: 1100px;
-    gap: 1rem;
+    /* padding: min(5vh, 5rem) min(2.5vw, 2.5rem); */
+    width: 100%;
+    gap: 3rem;
 
 }
 
