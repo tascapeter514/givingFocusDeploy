@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 7vh 11vw 5vh 11vw;
+    padding: 7vh 8vw 5vh 8vw;
     gap: 3rem;
     align-items: center;
 }
@@ -21,7 +21,7 @@
     flex-direction: row-reverse;
     width: 100%;
     max-width: 1100px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .resume-services-img {
@@ -34,8 +34,7 @@
     display: block;
     width: 100%;
     max-width: 400px;
-    min-width: 400px;
-    max-height: 33rem;
+    height: 33rem;
     object-fit: cover;
     aspect-ratio: 1;
     
@@ -106,7 +105,7 @@
     display: flex;
     width: 100%;
     max-width: 1100px;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -128,7 +127,7 @@
     display: block;
     width: 100%;
     max-width: 400px;
-    height: 30rem;
+    height: 33rem;
     object-fit: cover;
     aspect-ratio: 1;
     
@@ -141,7 +140,6 @@
     padding: min(.25vh, .25rem) min(1.5vw, 1.5rem);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-left: min(2vw, 2rem);
     max-height: 33rem;
 }
