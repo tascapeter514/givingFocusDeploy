@@ -30,7 +30,7 @@
     flex-direction: column;
     align-items: left;
     gap: .5rem;
-    max-width: 775px;
+    max-width: 675px;
 
 }
 
@@ -74,6 +74,7 @@
     margin: .5rem;
     width: 100%;
 
+
 }
 
 /* 1400px */
@@ -81,8 +82,14 @@
 @media (max-width: 87.5em) {
 
     .about-wrapper > img {
-        height: 35rem;
-        
+        height: 37rem;
+    }
+
+
+    .about-text-container {
+        line-height: 1.25;
+        max-width: 450px;
+        gap: 0;
     }
     
 
@@ -99,6 +106,7 @@
     .about-text-container {
         padding: 0;
         align-items: left;
+        gap: 1rem;
     }
 
 
