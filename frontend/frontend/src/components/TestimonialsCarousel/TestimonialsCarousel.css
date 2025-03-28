@@ -137,6 +137,12 @@
 /* 900 px */
 
 @media (max-width: 56.25em) {
+
+    .carousel-slide {
+        max-width: 550px;
+    }
+
+
     .carousel-item li * {
         font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour))
 
@@ -154,12 +160,13 @@
 
     }
 
-    .carousel-slide {
-        /* height: 50vh; */
-        /* padding: min(2vh, 2rem) min(2vw, 2rem); */
-    }
 
-   
+
+   .byline {
+    border: 1px solid red;
+    text-align: left;
+    text-wrap: wrap
+   }
 
 
     .carousel-item li * {
@@ -177,13 +184,7 @@
 /* 400px */
 
 @media (max-width: 25em) {
-    .carousel {
-       
-        /* padding: min(2.5vh, 2.5rem) min(2vw, 2rem); */
-
-        /* border: 1px solid black; */
-    
-    }
+   
 
     .carousel-item > li * {
         font-size: clamp(var(--fs-sixteen), 1vw, var(--fs-sixteen) )

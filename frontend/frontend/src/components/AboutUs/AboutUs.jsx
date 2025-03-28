@@ -13,7 +13,7 @@ const AboutUs = forwardRef((props, ref) => {
                 
                 <h5 className='about-secondary-header'>Giving Focus LLC is a consulting firm specializing in professional career development for individuals seeking advancement, transition, return to, or entry into the workplace.</h5>
 
-                <p>Giving Focus LLC was founded by Mary Louise Fazzano and for nearly 20 years it has assisted clients on 6 continents prepare for and begin the next phase of their career. From recent graduates and those climbing through the ranks to industry leaders, diplomats and academicians, we guide clients iconfidential, one-on-one sessions.</p>
+                <p>Giving Focus LLC was founded by Mary Louise Fazzano and for nearly 20 years it has assisted clients on 6 continents prepare for and begin the next phase of their career. From recent graduates and those climbing through the ranks to industry leaders, diplomats and academicians, we guide clients in confidential, one-on-one sessions.</p>
 
                 <p>The Giving Focus process includes planning a comprehensive job search, creating resumes and bios,
                 fine tuning interviewing skills, negotiating the job and salary details, and navigating the first year in a new position.
