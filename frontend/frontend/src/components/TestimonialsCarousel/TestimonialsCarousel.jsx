@@ -4,7 +4,7 @@ import data from './data.js'
 
 export default function TestimonialsCarousel() {
     const [activeSlide, setActiveSlide] = useState(0);
-    const [autoPlay] = useState(false);
+    const [autoPlay] = useState(true);
 
 
     useEffect(() => {
