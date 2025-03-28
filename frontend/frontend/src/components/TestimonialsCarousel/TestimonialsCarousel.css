@@ -40,7 +40,6 @@
 }
 
 .carousel .carousel-item li {
-    /* border: 1px solid yellow; */
     min-width: fit-content;
     width: 100%;
  
@@ -48,18 +47,15 @@
 }
 
 .carousel-item li * {
-    /* border: 1px solid red; */
     display: flex;
     width: 100%;
     font-size: clamp(var(--fs-twentyFour), 1.5vw, var(--fs-twentyFour));
     color: white;
     text-align: justify;
-    /* text-wrap: pretty; */
     justify-content: center;
-
-
-    
 }
+
+
 
 
 
@@ -80,7 +76,6 @@
 
 
 .testimonial-testimonialbody {
-    /* border: 5px solid purple; */
     margin-inline: 0;
     
 }
@@ -159,12 +154,10 @@
         padding: 1.5rem;
 
     }
-
-
-
    .byline {
-    text-align: left;
-    text-wrap: wrap
+        width: fit-content;
+        border: 1px solid red;
+    
    }
 
 
@@ -189,11 +182,11 @@
         font-size: clamp(var(--fs-sixteen), 1vw, var(--fs-sixteen) )
     }
 
-
+/* 
     .carousel-slide {
         height: 65vh;
         max-width: 100%;
-    }
+    } */
 }
 
 
