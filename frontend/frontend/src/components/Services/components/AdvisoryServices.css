@@ -12,10 +12,10 @@
 .advisory-services h3 {
     font-size: var(--fs-fortyEight);
     margin: 0 auto 0 auto;
-    padding: 1.5em 3em;
     color: white;
     padding: .25em .5em;
     text-align: center;
+
 
 }
 
@@ -54,21 +54,8 @@
     padding: min(.25vh, .25rem) min(1.5vw, 1.5rem);
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     max-height: 33rem;
 }
-
-/* .search-focus-wrapper {
-    width: 100%;
-    max-width: 500px;
-    padding: min(.25vh, .25rem) min(1.5vw, 1.5rem);
-
-    display: flex;
-    flex-direction: column;
-    margin-left: min(2vw, 2rem);
-    max-height: 33rem;
-    
-} */
 
 .focus-divider {
     width: 100%;
@@ -206,7 +193,7 @@
 
 @media (max-width: 75em) {
     .advisory-services{
-        padding: 7vh 7vw 5vh 5vw;
+        padding: 0 7vw 5vh 5vw;
     }
 
 }

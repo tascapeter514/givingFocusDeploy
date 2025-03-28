@@ -11,7 +11,7 @@
     margin: 0 auto;
     text-align: center;
     font-size: var(--fs-sixty);
-    padding: .5em;
+    padding-block: .5em .5em;
     color: white;
 }
 

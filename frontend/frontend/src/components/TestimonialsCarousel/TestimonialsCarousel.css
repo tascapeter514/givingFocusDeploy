@@ -182,11 +182,15 @@
         font-size: clamp(var(--fs-sixteen), 1vw, var(--fs-sixteen) )
     }
 
-/* 
-    .carousel-slide {
-        height: 65vh;
-        max-width: 100%;
-    } */
+    .carousel-slide > li:first-child .byline {
+
+        border: 1px solid red;
+        text-align: left;
+        
+
+    
+   }
+
 }
 
 
