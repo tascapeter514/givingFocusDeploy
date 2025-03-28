@@ -1,16 +1,10 @@
 
 
 .carousel {
-    /* min-width: 100%; */
     width: 100%;
-
     position: relative;
     padding: 2em;
-
-    
-    /* padding: min(5vh, 5rem) min(5vw, 5rem); */
     background-color: var(--bc-lightBlue);
-    /* border: 1px solid white; */
 
 
 }
@@ -106,7 +100,6 @@
 
 
 .menu-wrapper {
-    /* border: 1px solid purple; */
     margin: 2rem auto;
     min-width: 25%;
     text-align: center;
@@ -115,7 +108,6 @@
 }
 
 .slider-button {
-    /* border: 1px solid white; */
     cursor: pointer;
     height: 1.25rem;
     width: 1.25rem;
@@ -150,7 +142,6 @@
 @media (max-width: 37.5em) {
 
     .carousel {
-        /* padding: min(2vh, 2rem) min(2vw, 2rem); */
         padding: 1.5rem;
 
     }
@@ -177,17 +168,12 @@
 
 @media (max-width: 25em) {
    
-
     .carousel-item > li * {
         font-size: clamp(var(--fs-sixteen), 1vw, var(--fs-sixteen) )
     }
 
     .carousel-slide > li:first-child .byline {
-
-        border: 1px solid red;
         text-align: left;
-        
-
     
    }
 
