@@ -13,10 +13,9 @@ export default function Profile() {
                 </div>
                     <div className="mary-louise-image-wrapper">
                         <img src={require("./assets/mary-louise-photo.jpg")} alt="mary-louise-photo" />
-                        {/* <div className="maryLouise-card-background"></div> */}
                     </div>
             </article>
-            <article class="maryLouise-text-wrapper">
+            <article className="maryLouise-text-wrapper">
                 <p>
                 She is known as an expert listener with clear, practical suggestions. More than 400 satisfied clients have recommended Giving Focus to colleagues and friends globally.
                 Mary Louise creates targeted and customized resumes and biographies for clients pursuing unique professional opportunities. 

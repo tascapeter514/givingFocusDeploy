@@ -8,7 +8,7 @@ import handshakeSvg from '../assets/handshake-solid.svg'
 
 export default function SearchServices() {
     return(
-        <article class="search-services">
+        <article className="search-services">
             <div className="search-header-wrapper">
                 <h3>Search Services</h3>
                 <span>Giving Focus will help you to develop techniques and strategies for refining your job search skills by enabling you
