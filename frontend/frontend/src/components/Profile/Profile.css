@@ -54,7 +54,7 @@
 .header-texts > h5 {
     font-size: clamp(var(--fs-sixteen), 1.125vw, var(--fs-eighteen));
     margin-top: 0;
-    text-align: justify;
+    text-align: left;
     text-wrap: pretty;
 
 
