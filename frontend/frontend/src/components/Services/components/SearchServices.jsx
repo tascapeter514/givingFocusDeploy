@@ -41,7 +41,6 @@ export default function SearchServices() {
                 </div>
                 <div className="card negotiation">
                     <img src={handshakeSvg} alt="handshake" className='icon handshake'/>
-                    {/* <HandshakeSvg className='icon handshake'></HandshakeSvg> */}
                     <h4>Negotiating Coaching & Practice</h4>
                     <p>Salary, benefits, and many essential elements of your compensation package are negotiable.
                         Giving Focus prepares clients with proven techniques to negotiate to “Yes”. </p>
