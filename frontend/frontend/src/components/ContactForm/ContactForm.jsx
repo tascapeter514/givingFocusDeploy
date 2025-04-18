@@ -13,14 +13,10 @@ const ContactForm = forwardRef((props, ref) => {
                 <article className="contact-form">
                     <form action="#" className="form-field" name="myForm">
                         <input type="text" className="formInput fName" id='fName' placeholder='First Name' required/>
-                        <span className="text" id='fname-text'></span>
                         <input type="text" className="formInput lName" id='lName' placeholder='Last Name' required />
-                        <span className="text" id='lname-text'></span>
                         <input type="email" className="formInput email" id='email' placeholder='Email Address' required />
-                        <span className="text" id='lname-text'></span>
                         <input type="text" className="formInput message" id='message' placeholder='Enter Your Message' required/>
-                        <span className="text" id='message-text'></span>
-                        <input type="submit" id='submit' value='Find Your Focus Today' />
+                        <button type="submit" id='submit' className='submit-button' >Find your focus today!</button>
                     </form>
                 </article>
             </section>

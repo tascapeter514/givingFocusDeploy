@@ -254,9 +254,9 @@
         padding: min(2.5vh, 2.5rem) min(3vw, 3rem);
     }
 
-    .focus-you {
+    /* .focus-you {
         padding: min(2.5vh, 2.5rem) min(3vw, 3rem);
-    }
+    } */
 
     .focus-you-img > img {
         width: 100%;
