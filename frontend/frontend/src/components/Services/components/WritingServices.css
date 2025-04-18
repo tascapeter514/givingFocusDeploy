@@ -152,6 +152,8 @@
     margin-block: 2rem;
 }
 
+
+
 .biography-services-wrapper ul {
     font-size: clamp(var(--fs-eighteen), 1.125vw, var(--fs-eighteen));
     line-height: 3.5vh;
@@ -197,6 +199,10 @@
         flex-direction: column;
         align-items: center;
         gap: 3rem;
+    }
+
+    .resume-services h4, .biography-services-wrapper h4 {
+        font-size: 40px;
     }
 
     .resume-services-img {

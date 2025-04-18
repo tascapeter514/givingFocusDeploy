@@ -13,7 +13,7 @@ export default function Profile() {
                 </div>
                     <div className="mary-louise-image-wrapper">
                         <img src={require("./assets/mary-louise-photo.jpg")} alt="mary-louise-photo" />
-                        <div className="maryLouise-card-background"></div>
+                        {/* <div className="maryLouise-card-background"></div> */}
                     </div>
             </article>
             <article class="maryLouise-text-wrapper">

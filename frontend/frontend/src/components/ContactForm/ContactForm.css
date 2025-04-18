@@ -14,7 +14,7 @@
     background-color: var(--bc-lightBlue);
     /* padding: min(5vh, 5rem) min(2.5vw, 2.5rem); */
     width: 100%;
-    gap: 3rem;
+    gap: 1rem;
 
 }
 
@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: left;
     width: 100%;
-    max-width: 650px;
+    max-width: 500px;
 
 
 
@@ -48,7 +48,7 @@
     display: inline-block;
     padding: .25em;
     margin-bottom: 1rem;
-    text-align: justify;
+    text-align: left;
     text-wrap: pretty;
     width: 100%;
     max-width: 450px;
@@ -60,7 +60,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100%;
+    /* width: 100%; */
+    /* min-height: 100%; */
 }
 
 .form-field {
@@ -69,12 +70,14 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: min(15vh, 15rem) min(5vw, 5rem);
+    /* padding: min(15vh, 15rem) min(5vw, 5rem); */
     box-shadow: 0 .5rem 0 0 rgba(0, 0, 0 0.14688);
-    margin: auto;
-    /* border: 1px solid red; */
-    min-width: 100%;
-    height: 100%;
+    width: 100%;
+    /* min-width: 100%; */
+    padding: 3em;
+    gap: .5rem;
+    aspect-ratio: 1;
+    
 
     
 }
@@ -83,14 +86,13 @@ input {
    
     align-items: center;
     justify-content: center;
-    padding: min(1.5vh, 1.5rem) min(.5vw, .5rem);
+    /* padding: min(1.5vh, 1.5rem) min(.5vw, .5rem); */
     font-weight: 600;
     border: 1px solid #DEDEDE;
     color: hsla(248, 9%, 26%, 1);
-    line-height: var(--fs-twentyFour);
     font-size: var(--fs-fourteen);
     font-family: inherit;
-    width: 90%;
+    width: 100%;
     height: 10%;
 }
 
@@ -99,9 +101,8 @@ input {
 }
 
 input::placeholder {
-    /* font-weight: 600; */
     font-family: inherit;
-    /* color: #3D3B48; */
+
 }
 
 input:focus {
@@ -109,18 +110,13 @@ input:focus {
     border: 1px solid var(--bc-darkerBlue)
 }
 
-.space {
-    padding: min(0.5vh, 0.5rem) 0
-}
-
-
 
 /* return here to add text and error classes */
 
 #submit {
     border: none;
     color: white;
-    background-color: var(--bc-darkerBlue);
+    background-color: var(--bc-darkBlue);
     text-transform: uppercase;
     padding: min(1vh, 1rem) min(1vw, 1rem);
     font-weight: 600;
@@ -140,7 +136,6 @@ input:focus {
 /* 1200px */
 @media (max-width: 75em) {
 
-    
 
     .form-container {
         gap: 2rem;
@@ -148,14 +143,6 @@ input:focus {
 
     .contact-title {
         font-size: var(--fs-thirty)
-    }
-
-    .form-field {
-        padding: min(15vh, 15rem) min(1vw, 1rem);
-    }
-
-    .contact-form {
-        width: 100%;
     }
     
 
@@ -178,6 +165,7 @@ input:focus {
     .contact-text {
         display: flex;
         align-items: center;
+
 
     }
 
@@ -206,12 +194,12 @@ input:focus {
 
 
     .form-field {
-        padding: min(10vh, 10rem) 0;
-        min-width: 100%;
+        /* padding: min(10vh, 10rem) 0;
+        min-width: 100%; */
     }
 
     .contact-form {
-        max-width: 425px; 
+        max-width: 500px; 
     }
 
     

@@ -8,13 +8,13 @@
 }
 
 .search-header-wrapper {
-    text-align: center;
     margin-bottom: 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .5rem;
+
 }
 .search-header-wrapper h3 {
     /* font-size: var(--fs-fortyEight); */
@@ -25,7 +25,8 @@
 .search-header-wrapper > span {
     font-size: clamp(var(--fs-sixteen), 1.5vw, var(--fs-eighteen));
     max-width: 800px;
-    text-wrap: pretty;
+    text-align: left;
+
 
 }
 
@@ -47,7 +48,7 @@
     flex-direction: column;
     justify-content: center;
     line-height: 1.5;
-    text-align: justify;
+    text-align: left;
     align-items: center;
     /* border: 1px solid white; */
 }
@@ -64,7 +65,7 @@
     stroke: white;
     display: block;
     border-radius: 2rem;
-    margin-inline: auto;
+    /* margin-inline: auto; */
     /* margin-block: 0; */
 }
 
@@ -79,6 +80,7 @@
 
 .card p {
     margin-block: .5rem;
+
 }
 
 
@@ -123,11 +125,16 @@
         padding-inline: min(4vw, 4rem);
     }
 
+    .search-header-wrapper {
+        display: flex;
+
+    
+    }
+
     .search-header-wrapper > span {
-        /* text-align: justify;
-        text-wrap: wrap; */
-        text-wrap: balance;
         font-size: 1rem;
+        max-width: 500px;
+ 
     }
 
     
@@ -139,18 +146,19 @@
 
     .card {
         padding: min(2vh, 2rem) min(2vw, 2rem);
-        text-align: justify;
-        align-items: center;
+        /* text-align: justify; */
+        text-align: left;
+        text-wrap: pretty;
+        align-items: left;
         max-height: 30vh;
 
     }
 
 
     .card h4 {
-        font-size: clamp(var(--fs-thirty), 2.25vw, var(--fs-thirtySix));
+        font-size: clamp(var(--fs-twentyFour), 2vw, var(--fs-thirty));
         max-width: 450px;
 
-        text-wrap: pretty;
 
     }
 
@@ -158,6 +166,7 @@
         /* font-size: clamp(var(--fs-twentyFour), 1.875vw, var(--fs-thirty)); */
         margin: 0;
         padding: min(1vw, 1rem) min(1vw, 1rem);
+        
     }
     
     .icon {
