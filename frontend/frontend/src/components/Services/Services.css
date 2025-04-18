@@ -18,7 +18,11 @@
 
 
 
-
+@media (max-width: 600px) {
+    .services-container h2 {
+        font-size: 45px;
+    }
+}
 
 
 

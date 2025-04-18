@@ -288,3 +288,44 @@
 
 }
 
+
+@media (max-width: 350px) {
+    .writing-services {
+        padding: 1rem;
+    }
+
+    .resume-services-img > img,
+    .biography-services-img > img {
+        height: auto;
+        aspect-ratio: unset;
+    }
+
+    .resume-services-wrapper,
+    .biography-services-wrapper {
+        max-height: none;
+        padding: 1rem;
+    }
+
+    .resume-services-wrapper ul,
+    .biography-services-wrapper ul {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .resume-services-wrapper li,
+    .biography-services-wrapper li {
+        padding: 0.5rem 0;
+        line-height: 1.4rem;
+    }
+
+    .resume-services-img,
+    .biography-services-img {
+        max-width: 100%;
+    }
+
+    .resume-services,
+    .biographies {
+        gap: 1.5rem;
+    }
+}
+

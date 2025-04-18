@@ -13,8 +13,6 @@
 
     display: grid;
     grid-template-columns: 1fr;
-
-
     position: relative;
 
     
@@ -148,7 +146,6 @@
     }
    .byline {
         width: fit-content;
-
     
    }
 
@@ -169,8 +166,15 @@
 /* 400px */
 
 @media (max-width: 25em) {
+
+
+    .carousel-slide {
+        height: 350px;
+
+    }
    
-    .carousel-item > li * {
+    .carousel-item li * {
+        line-height: 1;
         font-size: clamp(var(--fs-sixteen), 1vw, var(--fs-sixteen) )
     }
 
@@ -179,6 +183,14 @@
     
    }
 
+}
+
+@media (max-width: 350px) {
+
+
+    .carousel-item li * {
+        font-size: .9rem;
+    }
 }
 
 

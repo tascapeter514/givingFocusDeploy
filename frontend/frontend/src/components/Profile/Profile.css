@@ -172,6 +172,12 @@ hr {
 
 }
 
+@media (max-width: 350px) {
+    .maryLouise-text-wrapper p {
+        font-size: .9rem;
+    }
+}
+
 
 
 

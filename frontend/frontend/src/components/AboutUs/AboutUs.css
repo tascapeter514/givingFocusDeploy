@@ -172,4 +172,8 @@
 }
 
 
-
+@media (max-width: 350px) {
+    .about-text-container p {
+        font-size: .9rem;
+    }
+}

@@ -265,9 +265,9 @@
         padding: min(2.5vh, 2.5rem) min(3vw, 3rem);
     }
 
-    /* .focus-you {
-        padding: min(2.5vh, 2.5rem) min(3vw, 3rem);
-    } */
+   .advisory-services h3 {
+    font-size: 33px;
+   }
 
     .focus-you-img > img {
         width: 100%;
@@ -306,6 +306,46 @@
     }
 
 
+}
+
+@media (max-width: 350px) {
+    .advisory-services {
+        padding: 1rem; /* Reduce padding further */
+    }
+
+    .focus-you-img > img,
+    .search-focus-img > img {
+        height: auto; /* Let it scale naturally */
+        aspect-ratio: unset;
+    }
+
+    .focus-you-wrapper,
+    .search-focus-wrapper {
+        max-height: none; /* Remove artificial height limits */
+        padding: 1rem;
+    }
+
+    .focus-you-wrapper ul,
+    .search-focus-wrapper ul {
+        padding: 0.5rem;
+        font-size: 0.9rem; /* Slightly reduce font size */
+    }
+
+    .focus-you-wrapper li,
+    .search-focus-wrapper li {
+        padding: 0.5rem 0;
+        line-height: 1.4rem;
+    }
+
+    .focus-you-img,
+    .search-focus-img {
+        max-width: 100%;
+    }
+
+    .focus-you,
+    .search-focus {
+        gap: 1.5rem;
+    }
 }
 
 
