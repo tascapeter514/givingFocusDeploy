@@ -24,23 +24,39 @@
     flex-direction: row-reverse;
     width: 100%;
     max-width: 1100px;
-    justify-content: space-between;
-
-
-    
+    justify-content: space-between; 
 }
+
+
+/* .search-focus-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-focus-img  > img {
+    display: block;
+    max-width: 100%;
+    max-height: 35rem;
+    aspect-ratio: 1;
+    object-fit: cover;
+    
+    
+
+} */
+
 .focus-you-img {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 400px;
 
+
 }
 
 .focus-you-img > img {
     display: block;
-    /* width: 100%; */
-    /* min-width: 400px; */
     max-width: 100%;
     max-height: 35rem;
     aspect-ratio: 1;

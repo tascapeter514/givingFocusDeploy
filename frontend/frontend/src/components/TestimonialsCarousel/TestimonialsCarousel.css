@@ -155,7 +155,8 @@
     .carousel-item li * {
         /* font-size: clamp(var(--fs-eighteen), 1.5vw, var(--fs-twentyFour)); */
         line-height: 1.5;
-        font-size: clamp(var(--fs-sixteen), 1.5vw, var(--fs-eighteen) )
+        font-size: clamp(var(--fs-sixteen), 1.5vw, var(--fs-eighteen) );
+        text-align: left;
     }
 
     .slider-button {

@@ -16,9 +16,7 @@ export default function Profile() {
                         <div className="maryLouise-card-background"></div>
                     </div>
             </article>
-                <article class="maryLouise-text-wrapper">
-                
-                
+            <article class="maryLouise-text-wrapper">
                 <p>
                 She is known as an expert listener with clear, practical suggestions. More than 400 satisfied clients have recommended Giving Focus to colleagues and friends globally.
                 Mary Louise creates targeted and customized resumes and biographies for clients pursuing unique professional opportunities. 
