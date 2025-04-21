@@ -31,13 +31,14 @@
 }
 
 .search-services-card-wrapper {
-    gap: 1rem;
+    gap: .5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto-fit, minmax(10rem, 2fr));
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
+    place-self: center;
 }
 
 .card {
@@ -54,7 +55,7 @@
 }
 
 .card.negotiation {
-    /* border: 1px solid white; */
+
     justify-content: start;
 }
 
@@ -72,15 +73,12 @@
 
 
 .card h4 {
-    /* border: 1px solid red; */
+
     margin-block: .5rem;
     font-size: clamp(var(--fs-eighteen), 1.125vw, var(--fs-twentyFour))
 }
 
-.card p {
-    margin-block: .5rem;
 
-}
 
 
 /* 1200px */
@@ -101,7 +99,7 @@
 
     .card {
         padding: min(3vh, 3rem) min(3vw, 3rem);
-        height: 40vh;
+
         
         
     }
@@ -149,11 +147,10 @@
 
     .card {
         padding: min(2vh, 2rem) min(2vw, 2rem);
-        /* text-align: justify; */
+
         text-align: left;
         text-wrap: pretty;
         align-items: left;
-        max-height: 30vh;
 
     }
 
