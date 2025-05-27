@@ -52,12 +52,7 @@ export default function TestimonialsCarousel() {
                 <ul className="menu-wrapper">
                     {sliderButtons}
                 </ul>
-
-                
             </div>
-
-
-
         </section>
         
         
