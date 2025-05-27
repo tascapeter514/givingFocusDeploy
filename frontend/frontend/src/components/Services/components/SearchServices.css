@@ -5,6 +5,7 @@
     color: white;
     
     
+    
 }
 
 .search-header-wrapper {
@@ -148,16 +149,19 @@
     
     .search-services-card-wrapper {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-        grid-template-rows: repeat(4, 1fr)
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-template-rows: repeat(4, 1fr);
+        align-items: stretch;
     }
 
     .card {
-        padding: min(2vh, 2rem) min(2vw, 2rem);
-
+        padding: min(1vh, 1rem) min(2vw, 2rem);
         text-align: left;
         text-wrap: pretty;
         align-items: left;
+        justify-content: center;
+        flex: 1 1 auto;
+        
 
     }
 
@@ -199,7 +203,20 @@
 /* 400px */
 
 @media (max-width: 25em) {
+
+    /* .card {
+        max-height: 35vh;
+    } */
     .card > p {
         font-size: .9rem;
+    }
+
+    .card > h4 {
+        text-align: left;
+    }
+
+    .icon {
+        width: 4rem;
+        height: 4rem;
     }
 }
