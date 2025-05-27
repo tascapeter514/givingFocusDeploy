@@ -6,12 +6,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid blue;
+    padding: 1em;
 }
 
 .mary-louise-header {
    display: flex;
    gap: 1rem;
    justify-content: space-between;
+   border: 1px solid blue;
    
 
 }
@@ -21,18 +24,20 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    padding: min(1.5vw, 1.5rem) min(1.5vw, 1.5rem);
 
 }
 
 .maryLouise-text-wrapper > p {
     width: 100%;
+    margin-block: .5rem;
 }
 
 
 
 .maryLouise-text-wrapper, .mary-louise-header {
     width: 100%;
-    max-width: 900px;
+    max-width: 1100px;
 }
 
 .header-texts {
